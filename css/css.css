@@ -6,8 +6,8 @@
 
 body {
     background-color: #2C3A47;
-    width: 95vh;
-    height: 95;
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
