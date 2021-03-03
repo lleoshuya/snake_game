@@ -1,0 +1,23 @@
+/*
+#4B6584; //Cor para background
+#2C3A47; //Cor para texto
+#B2BEC3; //Cor para texto2
+*/
+
+body {
+    background-color: #2C3A47;
+    width: 95vh;
+    height: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: rgb(0, 255, 255);
+}
+
+h4 {
+    color: rgb(255, 155, 25);
+}
