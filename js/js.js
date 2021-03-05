@@ -116,4 +116,13 @@ function iniciarJogo() {
 
 };
 
-let jogo = setInterval(iniciarJogo, 100);
+criarBG();
+
+function start() {
+    let jogo = setInterval(iniciarJogo, 100);
+    document.getElementById("comecar").disabled = true;
+}
+
+function restart() {
+    window.location.reload()
+}
